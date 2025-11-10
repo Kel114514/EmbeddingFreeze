@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# model=$1
+# model_name=$2
+# model_config=$3
+# model_config_name=$4
+# dataset=$5
+# dataset_config=$6
+# dataset_name=$7
+# param=$8
+model=GRU4Rec_Ours
+model_name="GRU"
+model_config=$3
+model_config_name=$4
+dataset=gowalla
+dataset_config=gowalla
+dataset_name=gowalla
+param=GRU_mem4_fast
+
+python run_hyper.py --model=$model --dataset=${dataset} --config_files=./recbole/properties/dataset/${dataset_config}.yaml --params_file=hyper_config/hyper.${param} ${model_config//+/ } --efficient_mode='None' --hyper_results="hyper_results/hyper_${model_name}_${dataset_name}_${model_config_name}"
+echo "python run_hyper.py --model=$model --dataset=${dataset} --config_files=./recbole/properties/dataset/${dataset_config}.yaml --params_file=hyper_config/hyper.${param} ${model_config//+/ } --efficient_mode='None' --hyper_results='hyper_results/hyper_${model_name}_${dataset_name}_${model_config_name}'"

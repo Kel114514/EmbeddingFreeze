@@ -1,0 +1,23 @@
+# Saved models
+/saved*
+*.pth
+*~
+dataset/*
+*.swp
+slurm-*
+hyper_results*
+RecDatasets
+slog*
+.ipynb*
+old*
+out_fig*
+
+.vscode/
+.idea/
+*.pyc
+*.log
+log_tensorboard/*
+saved/
+*.lprof
+*.egg-info/
+docs/build/

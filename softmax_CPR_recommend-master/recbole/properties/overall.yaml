@@ -1,0 +1,64 @@
+# general
+gpu_id: 0
+use_gpu: True
+seed: 2020
+state: INFO
+reproducibility: True
+data_path: 'dataset/'
+checkpoint_dir: 'saved'
+show_progress: True
+save_dataset: False
+save_dataloaders: False
+
+# training settings
+epochs: 300
+#train_batch_size: 2048
+#SASRec
+train_batch_size: 128
+learner: adam
+learning_rate: 0.001
+#neg_sampling: None
+#neg_sampling:
+#  uniform: 1
+eval_step: 1
+stopping_step: 10
+clip_grad_norm: ~
+# clip_grad_norm:  {'max_norm': 5, 'norm_type': 2}
+weight_decay: 0.0
+require_pow: False
+
+#MFS parameters
+n_facet: 1
+n_facet_all: 1
+n_facet_hidden: 1
+n_facet_window: 0
+n_facet_MLP: 0
+n_facet_context: 0
+n_facet_reranker: 0
+n_facet_emb: 0
+efficient_mode: 'None'
+weight_mode: ''
+context_norm: 1
+post_remove_context: 0
+partition_merging_mode: 'replace'
+reranker_merging_mode: 'replace'
+reranker_CAN_NUM: 500,100,20
+use_proj_bias: 1
+#partition_merging_mode: 'add'
+#weight_mode: 'max_logits'
+
+# evaluation settings
+eval_args: 
+  split: {'RS':[0.8,0.1,0.1]}
+  group_by: user
+  order: RO
+  mode: full
+  #  mode: pop100
+repeatable: False
+metrics: ["Recall","MRR","NDCG","Hit","Precision"]
+topk: [10]
+valid_metric: MRR@10
+valid_metric_bigger: True
+eval_batch_size: 4096
+loss_decimal_place: 4
+metric_decimal_place: 4
