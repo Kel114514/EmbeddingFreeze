@@ -1,0 +1,611 @@
+2025-11-12 20:11:43,941 SASRec: ================================================
+2025-11-12 20:11:44,447 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 20:11:44,447 SASRec: Test User(>=3) : 14794
+2025-11-12 20:11:44,448 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 20:11:44,448 SASRec: Total Interaction : 132595
+2025-11-12 20:11:44,451 SASRec: Average Sequence Length: 5.11
+2025-11-12 20:11:44,685 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 20:11:45,027 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 20:15:01,755 SASRec: ================================================
+2025-11-12 20:15:02,261 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 20:15:02,267 SASRec: Test User(>=3) : 14794
+2025-11-12 20:15:02,268 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 20:15:02,268 SASRec: Total Interaction : 132595
+2025-11-12 20:15:02,271 SASRec: Average Sequence Length: 5.11
+2025-11-12 20:15:02,508 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 20:15:02,851 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 20:15:18,025 SASRec: ==========================================================
+2025-11-12 20:15:18,031 SASRec: Validation: HIT@10: 0.4847
+2025-11-12 20:15:18,032 SASRec: Overall Result: NDCG@10: 0.2798, HIT@10: 0.4639, best epoch: 10
+2025-11-12 20:15:18,064 SASRec: ==========================================================
+2025-11-12 20:15:18,064 SASRec: Validation: HIT@10: 0.4847
+2025-11-12 20:15:18,064 SASRec: Overall Result: NDCG@10: 0.2798, HIT@10: 0.4639, best epoch: 10
+2025-11-12 20:17:53,573 SASRec: ================================================
+2025-11-12 20:17:54,083 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 20:17:54,083 SASRec: Test User(>=3) : 14794
+2025-11-12 20:17:54,083 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 20:17:54,084 SASRec: Total Interaction : 132595
+2025-11-12 20:17:54,087 SASRec: Average Sequence Length: 5.11
+2025-11-12 20:17:54,331 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 20:17:54,674 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 20:19:37,756 SASRec: ==========================================================
+2025-11-12 20:19:37,756 SASRec: Validation: HIT@10: 0.5512
+2025-11-12 20:19:37,757 SASRec: Overall Result: NDCG@10: 0.3611, HIT@10: 0.5209, best epoch: 100
+2025-11-12 20:19:37,790 SASRec: ==========================================================
+2025-11-12 20:19:37,790 SASRec: Validation: HIT@10: 0.5512
+2025-11-12 20:19:37,790 SASRec: Overall Result: NDCG@10: 0.3611, HIT@10: 0.5209, best epoch: 100
+2025-11-12 20:26:52,876 SASRec: ================================================
+2025-11-12 20:26:53,375 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 20:26:53,375 SASRec: Test User(>=3) : 14794
+2025-11-12 20:26:53,375 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 20:26:53,376 SASRec: Total Interaction : 132595
+2025-11-12 20:26:53,379 SASRec: Average Sequence Length: 5.11
+2025-11-12 20:26:53,606 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 20:26:53,934 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 20:28:36,163 SASRec: ==========================================================
+2025-11-12 20:28:36,163 SASRec: Validation: HIT@10: 0.5512
+2025-11-12 20:28:36,164 SASRec: Overall Result: NDCG@10: 0.3611, HIT@10: 0.5209, best epoch: 100
+2025-11-12 20:28:36,197 SASRec: ==========================================================
+2025-11-12 20:28:36,197 SASRec: Validation: HIT@10: 0.5512
+2025-11-12 20:28:36,198 SASRec: Overall Result: NDCG@10: 0.3611, HIT@10: 0.5209, best epoch: 100
+2025-11-12 20:30:36,232 SASRec: ================================================
+2025-11-12 20:30:36,723 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 20:30:36,724 SASRec: Test User(>=3) : 14794
+2025-11-12 20:30:36,724 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 20:30:36,724 SASRec: Total Interaction : 132595
+2025-11-12 20:30:36,727 SASRec: Average Sequence Length: 5.11
+2025-11-12 20:30:36,953 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 20:30:37,284 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 20:34:21,590 SASRec: ==========================================================
+2025-11-12 20:34:21,591 SASRec: Validation: HIT@10: 0.5619
+2025-11-12 20:34:21,591 SASRec: Overall Result: NDCG@10: 0.3731, HIT@10: 0.5285, best epoch: 180
+2025-11-12 20:34:21,624 SASRec: ==========================================================
+2025-11-12 20:34:21,625 SASRec: Validation: HIT@10: 0.5619
+2025-11-12 20:34:21,625 SASRec: Overall Result: NDCG@10: 0.3731, HIT@10: 0.5285, best epoch: 180
+2025-11-12 21:50:12,270 SASRec: ================================================
+2025-11-12 21:50:12,788 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 21:50:12,789 SASRec: Test User(>=3) : 14794
+2025-11-12 21:50:12,789 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 21:50:12,790 SASRec: Total Interaction : 132595
+2025-11-12 21:50:12,792 SASRec: Average Sequence Length: 5.11
+2025-11-12 21:50:13,043 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 21:50:13,387 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 21:52:32,576 SASRec: ================================================
+2025-11-12 21:52:33,077 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 21:52:33,078 SASRec: Test User(>=3) : 14794
+2025-11-12 21:52:33,078 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 21:52:33,078 SASRec: Total Interaction : 132595
+2025-11-12 21:52:33,081 SASRec: Average Sequence Length: 5.11
+2025-11-12 21:52:33,312 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 21:52:33,651 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 21:53:04,182 SASRec: ================================================
+2025-11-12 21:53:04,684 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 21:53:04,684 SASRec: Test User(>=3) : 14794
+2025-11-12 21:53:04,685 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 21:53:04,685 SASRec: Total Interaction : 132595
+2025-11-12 21:53:04,688 SASRec: Average Sequence Length: 5.11
+2025-11-12 21:53:04,922 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 21:53:05,264 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 21:54:02,866 SASRec: ================================================
+2025-11-12 21:54:03,377 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 21:54:03,377 SASRec: Test User(>=3) : 14794
+2025-11-12 21:54:03,377 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 21:54:03,378 SASRec: Total Interaction : 132595
+2025-11-12 21:54:03,381 SASRec: Average Sequence Length: 5.11
+2025-11-12 21:54:03,623 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 21:54:03,963 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 21:56:00,594 SASRec: ================================================
+2025-11-12 21:56:01,111 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 21:56:01,112 SASRec: Test User(>=3) : 14794
+2025-11-12 21:56:01,112 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 21:56:01,113 SASRec: Total Interaction : 132595
+2025-11-12 21:56:01,115 SASRec: Average Sequence Length: 5.11
+2025-11-12 21:56:01,346 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 21:56:01,678 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 21:57:53,373 SASRec: ==========================================================
+2025-11-12 21:57:53,374 SASRec: Validation: HIT@10: 0.5656
+2025-11-12 21:57:53,374 SASRec: Overall Result: NDCG@10: 0.3757, HIT@10: 0.5337, best epoch: 20
+2025-11-12 21:57:53,408 SASRec: ==========================================================
+2025-11-12 21:57:53,409 SASRec: Validation: HIT@10: 0.5656
+2025-11-12 21:57:53,409 SASRec: Overall Result: NDCG@10: 0.3757, HIT@10: 0.5337, best epoch: 20
+2025-11-12 22:21:54,659 SASRec: ================================================
+2025-11-12 22:21:53,258 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 22:21:53,259 SASRec: Test User(>=3) : 14794
+2025-11-12 22:21:53,259 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 22:21:53,259 SASRec: Total Interaction : 132595
+2025-11-12 22:21:53,262 SASRec: Average Sequence Length: 5.11
+2025-11-12 22:21:53,519 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 22:21:53,875 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 22:23:57,851 SASRec: ==========================================================
+2025-11-12 22:23:57,852 SASRec: Validation: HIT@10: 0.5512
+2025-11-12 22:23:57,852 SASRec: Overall Result: NDCG@10: 0.3611, HIT@10: 0.5209, best epoch: 100
+2025-11-12 22:23:57,886 SASRec: ==========================================================
+2025-11-12 22:23:57,887 SASRec: Validation: HIT@10: 0.5512
+2025-11-12 22:23:57,887 SASRec: Overall Result: NDCG@10: 0.3611, HIT@10: 0.5209, best epoch: 100
+2025-11-12 22:30:03,342 SASRec: ================================================
+2025-11-12 22:30:03,995 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 22:30:03,996 SASRec: Test User(>=3) : 14794
+2025-11-12 22:30:03,996 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 22:30:03,996 SASRec: Total Interaction : 132595
+2025-11-12 22:30:03,999 SASRec: Average Sequence Length: 5.11
+2025-11-12 22:30:04,234 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 22:30:04,591 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 22:34:37,317 SASRec: ==========================================================
+2025-11-12 22:34:37,317 SASRec: Validation: HIT@10: 0.5619
+2025-11-12 22:34:37,318 SASRec: Overall Result: NDCG@10: 0.3731, HIT@10: 0.5285, best epoch: 180
+2025-11-12 22:34:37,353 SASRec: ==========================================================
+2025-11-12 22:34:37,353 SASRec: Validation: HIT@10: 0.5619
+2025-11-12 22:34:37,353 SASRec: Overall Result: NDCG@10: 0.3731, HIT@10: 0.5285, best epoch: 180
+2025-11-12 22:41:08,846 SASRec: ================================================
+2025-11-12 22:41:09,380 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 22:41:09,380 SASRec: Test User(>=3) : 14794
+2025-11-12 22:41:09,381 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 22:41:09,381 SASRec: Total Interaction : 132595
+2025-11-12 22:41:09,384 SASRec: Average Sequence Length: 5.11
+2025-11-12 22:41:09,629 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 22:41:09,976 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 22:45:27,320 SASRec: ==========================================================
+2025-11-12 22:45:27,321 SASRec: Validation: HIT@10: 0.5619
+2025-11-12 22:45:27,321 SASRec: Overall Result: NDCG@10: 0.3731, HIT@10: 0.5285, best epoch: 180
+2025-11-12 22:45:27,365 SASRec: ==========================================================
+2025-11-12 22:45:27,366 SASRec: Validation: HIT@10: 0.5619
+2025-11-12 22:45:27,366 SASRec: Overall Result: NDCG@10: 0.3731, HIT@10: 0.5285, best epoch: 180
+2025-11-12 22:59:34,359 SASRec: ================================================
+2025-11-12 22:59:34,872 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 22:59:34,872 SASRec: Test User(>=3) : 14794
+2025-11-12 22:59:34,872 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 22:59:34,873 SASRec: Total Interaction : 132595
+2025-11-12 22:59:34,876 SASRec: Average Sequence Length: 5.11
+2025-11-12 22:59:35,115 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 22:59:35,473 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:00:43,497 SASRec: ==========================================================
+2025-11-12 23:00:43,498 SASRec: Validation: HIT@10: 0.5667
+2025-11-12 23:00:43,498 SASRec: Overall Result: NDCG@10: 0.3702, HIT@10: 0.5299, best epoch: 10
+2025-11-12 23:00:43,537 SASRec: ==========================================================
+2025-11-12 23:00:43,537 SASRec: Validation: HIT@10: 0.5667
+2025-11-12 23:00:43,537 SASRec: Overall Result: NDCG@10: 0.3702, HIT@10: 0.5299, best epoch: 10
+2025-11-12 23:03:45,302 SASRec: ================================================
+2025-11-12 23:03:45,827 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:03:45,827 SASRec: Test User(>=3) : 14794
+2025-11-12 23:03:45,828 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:03:45,828 SASRec: Total Interaction : 132595
+2025-11-12 23:03:45,831 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:03:46,055 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:03:46,406 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:04:40,057 SASRec: ================================================
+2025-11-12 23:04:40,551 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:04:40,552 SASRec: Test User(>=3) : 14794
+2025-11-12 23:04:40,552 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:04:40,552 SASRec: Total Interaction : 132595
+2025-11-12 23:04:40,555 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:04:40,782 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:04:41,116 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:05:54,009 SASRec: ==========================================================
+2025-11-12 23:05:54,010 SASRec: Validation: HIT@10: 0.5331
+2025-11-12 23:05:54,010 SASRec: Overall Result: NDCG@10: 0.3404, HIT@10: 0.5126, best epoch: 50
+2025-11-12 23:05:54,051 SASRec: ==========================================================
+2025-11-12 23:05:54,051 SASRec: Validation: HIT@10: 0.5331
+2025-11-12 23:05:54,051 SASRec: Overall Result: NDCG@10: 0.3404, HIT@10: 0.5126, best epoch: 50
+2025-11-12 23:13:30,155 SASRec: ================================================
+2025-11-12 23:13:30,635 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:13:30,635 SASRec: Test User(>=3) : 14794
+2025-11-12 23:13:30,635 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:13:30,636 SASRec: Total Interaction : 132595
+2025-11-12 23:13:30,639 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:13:30,877 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:13:31,212 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:14:42,778 SASRec: ==========================================================
+2025-11-12 23:14:42,779 SASRec: Validation: HIT@10: 0.4753
+2025-11-12 23:14:42,779 SASRec: Overall Result: NDCG@10: 0.2775, HIT@10: 0.4578, best epoch: 35
+2025-11-12 23:14:42,812 SASRec: ==========================================================
+2025-11-12 23:14:42,812 SASRec: Validation: HIT@10: 0.4753
+2025-11-12 23:14:42,812 SASRec: Overall Result: NDCG@10: 0.2775, HIT@10: 0.4578, best epoch: 35
+2025-11-12 23:20:26,255 SASRec: ================================================
+2025-11-12 23:20:26,749 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:20:26,750 SASRec: Test User(>=3) : 14794
+2025-11-12 23:20:26,750 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:20:26,750 SASRec: Total Interaction : 132595
+2025-11-12 23:20:26,753 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:20:26,979 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:20:27,304 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:21:35,833 SASRec: ==========================================================
+2025-11-12 23:21:35,833 SASRec: Validation: HIT@10: 0.4738
+2025-11-12 23:21:35,833 SASRec: Overall Result: NDCG@10: 0.2709, HIT@10: 0.4506, best epoch: 45
+2025-11-12 23:21:35,866 SASRec: ==========================================================
+2025-11-12 23:21:35,866 SASRec: Validation: HIT@10: 0.4738
+2025-11-12 23:21:35,866 SASRec: Overall Result: NDCG@10: 0.2709, HIT@10: 0.4506, best epoch: 45
+2025-11-12 23:28:58,451 SASRec: ================================================
+2025-11-12 23:28:58,923 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:28:58,923 SASRec: Test User(>=3) : 14794
+2025-11-12 23:28:58,924 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:28:58,924 SASRec: Total Interaction : 132595
+2025-11-12 23:28:58,927 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:28:59,147 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:28:59,466 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:29:49,974 SASRec: ==========================================================
+2025-11-12 23:29:49,980 SASRec: Validation: HIT@10: 0.4753
+2025-11-12 23:29:49,980 SASRec: Overall Result: NDCG@10: 0.2775, HIT@10: 0.4578, best epoch: 35
+2025-11-12 23:29:50,013 SASRec: ==========================================================
+2025-11-12 23:29:50,013 SASRec: Validation: HIT@10: 0.4753
+2025-11-12 23:29:50,013 SASRec: Overall Result: NDCG@10: 0.2775, HIT@10: 0.4578, best epoch: 35
+2025-11-12 23:32:21,815 SASRec: ================================================
+2025-11-12 23:32:22,288 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:32:22,288 SASRec: Test User(>=3) : 14794
+2025-11-12 23:32:22,289 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:32:22,289 SASRec: Total Interaction : 132595
+2025-11-12 23:32:22,292 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:32:22,509 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:32:22,829 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:33:07,518 SASRec: ==========================================================
+2025-11-12 23:33:07,525 SASRec: Validation: HIT@10: 0.5647
+2025-11-12 23:33:07,525 SASRec: Overall Result: NDCG@10: 0.3670, HIT@10: 0.5247, best epoch: 10
+2025-11-12 23:33:07,558 SASRec: ==========================================================
+2025-11-12 23:33:07,558 SASRec: Validation: HIT@10: 0.5647
+2025-11-12 23:33:07,558 SASRec: Overall Result: NDCG@10: 0.3670, HIT@10: 0.5247, best epoch: 10
+2025-11-12 23:33:41,256 SASRec: ================================================
+2025-11-12 23:33:41,751 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:33:41,752 SASRec: Test User(>=3) : 14794
+2025-11-12 23:33:41,752 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:33:41,752 SASRec: Total Interaction : 132595
+2025-11-12 23:33:41,755 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:33:41,964 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:33:42,279 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:34:27,445 SASRec: ==========================================================
+2025-11-12 23:34:27,446 SASRec: Validation: HIT@10: 0.5604
+2025-11-12 23:34:27,446 SASRec: Overall Result: NDCG@10: 0.3648, HIT@10: 0.5244, best epoch: 10
+2025-11-12 23:34:27,478 SASRec: ==========================================================
+2025-11-12 23:34:27,479 SASRec: Validation: HIT@10: 0.5604
+2025-11-12 23:34:27,479 SASRec: Overall Result: NDCG@10: 0.3648, HIT@10: 0.5244, best epoch: 10
+2025-11-12 23:35:46,223 SASRec: ================================================
+2025-11-12 23:35:46,705 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:35:46,705 SASRec: Test User(>=3) : 14794
+2025-11-12 23:35:46,706 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:35:46,706 SASRec: Total Interaction : 132595
+2025-11-12 23:35:46,709 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:35:46,919 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:35:47,235 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:36:32,122 SASRec: ==========================================================
+2025-11-12 23:36:32,122 SASRec: Validation: HIT@10: 0.5633
+2025-11-12 23:36:32,123 SASRec: Overall Result: NDCG@10: 0.3743, HIT@10: 0.5339, best epoch: 25
+2025-11-12 23:36:32,155 SASRec: ==========================================================
+2025-11-12 23:36:32,155 SASRec: Validation: HIT@10: 0.5633
+2025-11-12 23:36:32,155 SASRec: Overall Result: NDCG@10: 0.3743, HIT@10: 0.5339, best epoch: 25
+2025-11-12 23:39:24,101 SASRec: ================================================
+2025-11-12 23:39:24,586 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 23:39:24,586 SASRec: Test User(>=3) : 14794
+2025-11-12 23:39:24,587 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-12 23:39:24,587 SASRec: Total Interaction : 132595
+2025-11-12 23:39:24,590 SASRec: Average Sequence Length: 5.11
+2025-11-12 23:39:24,800 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-12 23:39:25,109 SASRec: ===== Training embedding from scratch =====
+2025-11-12 23:39:25,116 SASRec: ============Start Training (SASRec)=======================
+2025-11-12 23:44:23,201 SASRec: ==========================================================
+2025-11-12 23:44:23,201 SASRec: Validation: HIT@10: 0.5544
+2025-11-12 23:44:23,202 SASRec: Overall Result: NDCG@10: 0.3686, HIT@10: 0.5299, best epoch: 295
+2025-11-12 23:44:23,235 SASRec: ==========================================================
+2025-11-12 23:44:23,235 SASRec: Validation: HIT@10: 0.5544
+2025-11-12 23:44:23,236 SASRec: Overall Result: NDCG@10: 0.3686, HIT@10: 0.5299, best epoch: 295
+2025-11-13 01:39:02,184 SASRec: ================================================
+2025-11-13 01:39:02,657 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 01:39:02,658 SASRec: Test User(>=3) : 14794
+2025-11-13 01:39:02,658 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 01:39:02,659 SASRec: Total Interaction : 132595
+2025-11-13 01:39:02,661 SASRec: Average Sequence Length: 5.11
+2025-11-13 01:39:02,880 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 01:39:03,184 SASRec: ===== Training embedding from scratch =====
+2025-11-13 01:39:03,196 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 01:44:33,887 SASRec: ==========================================================
+2025-11-13 01:44:33,887 SASRec: Validation: HIT@10: 0.5627
+2025-11-13 01:44:33,887 SASRec: Overall Result: NDCG@10: 0.3755, HIT@10: 0.5309, best epoch: 265
+2025-11-13 01:44:33,919 SASRec: ==========================================================
+2025-11-13 01:44:33,919 SASRec: Validation: HIT@10: 0.5627
+2025-11-13 01:44:33,920 SASRec: Overall Result: NDCG@10: 0.3755, HIT@10: 0.5309, best epoch: 265
+2025-11-13 14:24:26,713 SASRec: ================================================
+2025-11-13 14:24:27,204 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:24:27,205 SASRec: Test User(>=3) : 14794
+2025-11-13 14:24:27,205 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:24:27,205 SASRec: Total Interaction : 132595
+2025-11-13 14:24:27,208 SASRec: Average Sequence Length: 5.11
+2025-11-13 14:24:27,452 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 14:24:27,779 SASRec: ===== Training embedding from scratch =====
+2025-11-13 14:24:27,787 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 14:24:35,840 SASRec: ================================================
+2025-11-13 14:24:36,338 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:24:36,338 SASRec: Test User(>=3) : 14794
+2025-11-13 14:24:36,338 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:24:36,339 SASRec: Total Interaction : 132595
+2025-11-13 14:24:36,341 SASRec: Average Sequence Length: 5.11
+2025-11-13 14:24:36,581 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 14:24:36,911 SASRec: ===== Training embedding from scratch =====
+2025-11-13 14:24:36,918 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 14:32:49,554 SASRec: ==========================================================
+2025-11-13 14:32:49,555 SASRec: Validation: HIT@10: 0.5658
+2025-11-13 14:32:49,555 SASRec: Overall Result: NDCG@10: 0.3834, HIT@10: 0.5362, best epoch: 495
+2025-11-13 14:32:49,604 SASRec: ==========================================================
+2025-11-13 14:32:49,605 SASRec: Validation: HIT@10: 0.5658
+2025-11-13 14:32:49,605 SASRec: Overall Result: NDCG@10: 0.3834, HIT@10: 0.5362, best epoch: 495
+2025-11-13 14:44:31,924 SASRec: ================================================
+2025-11-13 14:44:32,449 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:44:32,449 SASRec: Test User(>=3) : 14794
+2025-11-13 14:44:32,450 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:44:32,450 SASRec: Total Interaction : 132595
+2025-11-13 14:44:32,452 SASRec: Average Sequence Length: 5.11
+2025-11-13 14:44:32,701 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 14:44:33,036 SASRec: ===== Using pre-trained embedding from epoch 495 =====
+2025-11-13 14:44:33,049 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 14:45:18,449 SASRec: ==========================================================
+2025-11-13 14:45:18,450 SASRec: Validation: HIT@10: 0.5689
+2025-11-13 14:45:18,450 SASRec: Overall Result: NDCG@10: 0.3821, HIT@10: 0.5379, best epoch: 20
+2025-11-13 14:45:18,491 SASRec: ==========================================================
+2025-11-13 14:45:18,492 SASRec: Validation: HIT@10: 0.5689
+2025-11-13 14:45:18,492 SASRec: Overall Result: NDCG@10: 0.3821, HIT@10: 0.5379, best epoch: 20
+2025-11-13 14:51:35,796 SASRec: ================================================
+2025-11-13 14:51:36,303 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:51:36,303 SASRec: Test User(>=3) : 14794
+2025-11-13 14:51:36,303 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:51:36,304 SASRec: Total Interaction : 132595
+2025-11-13 14:51:36,306 SASRec: Average Sequence Length: 5.11
+2025-11-13 14:51:36,557 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 14:51:36,892 SASRec: ===== Training embedding from scratch =====
+2025-11-13 14:51:36,900 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:07:56,927 SASRec: ==========================================================
+2025-11-13 15:07:56,928 SASRec: Validation: HIT@10: 0.5671
+2025-11-13 15:07:56,928 SASRec: Overall Result: NDCG@10: 0.3852, HIT@10: 0.5387, best epoch: 595
+2025-11-13 15:07:56,961 SASRec: ==========================================================
+2025-11-13 15:07:56,961 SASRec: Validation: HIT@10: 0.5671
+2025-11-13 15:07:56,961 SASRec: Overall Result: NDCG@10: 0.3852, HIT@10: 0.5387, best epoch: 595
+2025-11-13 15:28:55,524 SASRec: ================================================
+2025-11-13 15:28:56,032 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:28:56,032 SASRec: Test User(>=3) : 14794
+2025-11-13 15:28:56,033 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:28:56,033 SASRec: Total Interaction : 132595
+2025-11-13 15:28:56,036 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:28:56,284 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:28:56,609 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 15:28:56,622 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:29:42,010 SASRec: ==========================================================
+2025-11-13 15:29:42,010 SASRec: Validation: HIT@10: 0.5704
+2025-11-13 15:29:42,011 SASRec: Overall Result: NDCG@10: 0.3869, HIT@10: 0.5435, best epoch: 25
+2025-11-13 15:29:42,050 SASRec: ==========================================================
+2025-11-13 15:29:42,051 SASRec: Validation: HIT@10: 0.5704
+2025-11-13 15:29:42,051 SASRec: Overall Result: NDCG@10: 0.3869, HIT@10: 0.5435, best epoch: 25
+2025-11-13 15:35:10,593 SASRec: ================================================
+2025-11-13 15:35:11,094 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:35:11,094 SASRec: Test User(>=3) : 14794
+2025-11-13 15:35:11,095 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:35:11,095 SASRec: Total Interaction : 132595
+2025-11-13 15:35:11,097 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:35:11,341 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:35:11,666 SASRec: ===== Using pre-trained embedding from epoch 500 =====
+2025-11-13 15:35:11,679 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:35:56,093 SASRec: ==========================================================
+2025-11-13 15:35:56,094 SASRec: Validation: HIT@10: 0.5710
+2025-11-13 15:35:56,094 SASRec: Overall Result: NDCG@10: 0.3840, HIT@10: 0.5418, best epoch: 25
+2025-11-13 15:35:56,136 SASRec: ==========================================================
+2025-11-13 15:35:56,136 SASRec: Validation: HIT@10: 0.5710
+2025-11-13 15:35:56,136 SASRec: Overall Result: NDCG@10: 0.3840, HIT@10: 0.5418, best epoch: 25
+2025-11-13 15:41:08,933 SASRec: ================================================
+2025-11-13 15:41:09,438 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:41:09,438 SASRec: Test User(>=3) : 14794
+2025-11-13 15:41:09,438 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:41:09,439 SASRec: Total Interaction : 132595
+2025-11-13 15:41:09,441 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:41:09,686 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:41:10,014 SASRec: ===== Using pre-trained embedding from epoch 550 =====
+2025-11-13 15:41:10,022 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:41:54,711 SASRec: ==========================================================
+2025-11-13 15:41:54,712 SASRec: Validation: HIT@10: 0.5687
+2025-11-13 15:41:54,712 SASRec: Overall Result: NDCG@10: 0.3855, HIT@10: 0.5413, best epoch: 45
+2025-11-13 15:41:54,753 SASRec: ==========================================================
+2025-11-13 15:41:54,754 SASRec: Validation: HIT@10: 0.5687
+2025-11-13 15:41:54,754 SASRec: Overall Result: NDCG@10: 0.3855, HIT@10: 0.5413, best epoch: 45
+2025-11-13 15:46:19,795 SASRec: ================================================
+2025-11-13 15:46:20,288 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:46:20,289 SASRec: Test User(>=3) : 14794
+2025-11-13 15:46:20,289 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:46:20,290 SASRec: Total Interaction : 132595
+2025-11-13 15:46:20,292 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:46:20,531 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:46:20,858 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 15:46:20,867 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:46:53,876 SASRec: ================================================
+2025-11-13 15:46:54,375 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:46:54,375 SASRec: Test User(>=3) : 14794
+2025-11-13 15:46:54,376 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:46:54,376 SASRec: Total Interaction : 132595
+2025-11-13 15:46:54,379 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:46:54,605 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:46:54,927 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 15:46:54,935 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:48:48,411 SASRec: ================================================
+2025-11-13 15:48:48,901 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:48:48,901 SASRec: Test User(>=3) : 14794
+2025-11-13 15:48:48,902 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:48:48,902 SASRec: Total Interaction : 132595
+2025-11-13 15:48:48,905 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:48:49,136 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:48:49,459 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 15:48:49,466 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:49:40,950 SASRec: ==========================================================
+2025-11-13 15:49:40,950 SASRec: Validation: HIT@10: 0.5750
+2025-11-13 15:49:40,951 SASRec: Overall Result: NDCG@10: 0.3959, HIT@10: 0.5475, best epoch: 25
+2025-11-13 15:49:41,014 SASRec: ==========================================================
+2025-11-13 15:49:41,014 SASRec: Validation: HIT@10: 0.5750
+2025-11-13 15:49:41,014 SASRec: Overall Result: NDCG@10: 0.3959, HIT@10: 0.5475, best epoch: 25
+2025-11-13 15:52:00,929 SASRec: ================================================
+2025-11-13 15:52:01,422 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:52:01,422 SASRec: Test User(>=3) : 14794
+2025-11-13 15:52:01,423 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:52:01,423 SASRec: Total Interaction : 132595
+2025-11-13 15:52:01,425 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:52:01,653 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:52:01,979 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 15:52:01,986 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 15:52:53,895 SASRec: ==========================================================
+2025-11-13 15:52:53,896 SASRec: Validation: HIT@10: 0.5750
+2025-11-13 15:52:53,896 SASRec: Overall Result: NDCG@10: 0.3961, HIT@10: 0.5491, best epoch: 25
+2025-11-13 15:52:53,956 SASRec: ==========================================================
+2025-11-13 15:52:53,956 SASRec: Validation: HIT@10: 0.5750
+2025-11-13 15:52:53,957 SASRec: Overall Result: NDCG@10: 0.3961, HIT@10: 0.5491, best epoch: 25
+2025-11-13 16:00:55,805 SASRec: ================================================
+2025-11-13 16:00:56,288 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:00:56,289 SASRec: Test User(>=3) : 14794
+2025-11-13 16:00:56,289 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:00:56,289 SASRec: Total Interaction : 132595
+2025-11-13 16:00:56,292 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:00:56,525 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:00:56,848 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 16:00:56,856 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:03:11,029 SASRec: ================================================
+2025-11-13 16:03:11,531 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:03:11,531 SASRec: Test User(>=3) : 14794
+2025-11-13 16:03:11,532 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:03:11,532 SASRec: Total Interaction : 132595
+2025-11-13 16:03:11,535 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:03:11,780 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:03:12,114 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 16:03:12,123 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:04:06,354 SASRec: ==========================================================
+2025-11-13 16:04:06,355 SASRec: Validation: HIT@10: 0.5745
+2025-11-13 16:04:06,355 SASRec: Overall Result: NDCG@10: 0.3869, HIT@10: 0.5447, best epoch: 10
+2025-11-13 16:04:06,420 SASRec: ==========================================================
+2025-11-13 16:04:06,421 SASRec: Validation: HIT@10: 0.5745
+2025-11-13 16:04:06,421 SASRec: Overall Result: NDCG@10: 0.3869, HIT@10: 0.5447, best epoch: 10
+2025-11-13 16:08:48,005 SASRec: ================================================
+2025-11-13 16:08:48,486 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:08:48,486 SASRec: Test User(>=3) : 14794
+2025-11-13 16:08:48,486 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:08:48,487 SASRec: Total Interaction : 132595
+2025-11-13 16:08:48,489 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:08:48,714 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:08:49,039 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 16:08:49,047 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:08:55,278 SASRec: ================================================
+2025-11-13 16:08:55,764 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:08:55,764 SASRec: Test User(>=3) : 14794
+2025-11-13 16:08:55,764 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:08:55,765 SASRec: Total Interaction : 132595
+2025-11-13 16:08:55,767 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:08:55,991 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:08:56,322 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 16:08:56,329 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:11:47,203 SASRec: ================================================
+2025-11-13 16:11:47,697 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:11:47,698 SASRec: Test User(>=3) : 14794
+2025-11-13 16:11:47,698 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:11:47,698 SASRec: Total Interaction : 132595
+2025-11-13 16:11:47,701 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:11:47,934 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:11:48,263 SASRec: ===== Using pre-trained embedding from epoch 595 =====
+2025-11-13 16:11:48,271 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:12:22,160 SASRec: ==========================================================
+2025-11-13 16:12:22,160 SASRec: Validation: HIT@10: 0.5743
+2025-11-13 16:12:22,161 SASRec: Overall Result: NDCG@10: 0.3866, HIT@10: 0.5433, best epoch: 10
+2025-11-13 16:12:22,218 SASRec: ==========================================================
+2025-11-13 16:12:22,218 SASRec: Validation: HIT@10: 0.5743
+2025-11-13 16:12:22,218 SASRec: Overall Result: NDCG@10: 0.3866, HIT@10: 0.5433, best epoch: 10
+2025-11-13 16:14:27,486 SASRec: ================================================
+2025-11-13 16:14:27,990 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:14:27,991 SASRec: Test User(>=3) : 14794
+2025-11-13 16:14:27,991 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:14:27,991 SASRec: Total Interaction : 132595
+2025-11-13 16:14:27,994 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:14:28,222 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:14:28,544 SASRec: ===== Using pre-trained embedding from epoch 595 with alpha = 1.1 =====
+2025-11-13 16:14:28,551 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:15:04,381 SASRec: ==========================================================
+2025-11-13 16:15:04,382 SASRec: Validation: HIT@10: 0.5745
+2025-11-13 16:15:04,382 SASRec: Overall Result: NDCG@10: 0.3866, HIT@10: 0.5432, best epoch: 10
+2025-11-13 16:15:04,440 SASRec: ==========================================================
+2025-11-13 16:15:04,440 SASRec: Validation: HIT@10: 0.5745
+2025-11-13 16:15:04,440 SASRec: Overall Result: NDCG@10: 0.3866, HIT@10: 0.5432, best epoch: 10
+2025-11-13 16:15:32,653 SASRec: ================================================
+2025-11-13 16:15:33,148 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:15:33,148 SASRec: Test User(>=3) : 14794
+2025-11-13 16:15:33,148 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:15:33,149 SASRec: Total Interaction : 132595
+2025-11-13 16:15:33,151 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:15:33,381 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:15:33,712 SASRec: ===== Using pre-trained embedding from epoch 595 with alpha = 1.0 =====
+2025-11-13 16:15:33,720 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:16:07,492 SASRec: ==========================================================
+2025-11-13 16:16:07,492 SASRec: Validation: HIT@10: 0.5741
+2025-11-13 16:16:07,493 SASRec: Overall Result: NDCG@10: 0.3865, HIT@10: 0.5423, best epoch: 10
+2025-11-13 16:16:07,551 SASRec: ==========================================================
+2025-11-13 16:16:07,551 SASRec: Validation: HIT@10: 0.5741
+2025-11-13 16:16:07,552 SASRec: Overall Result: NDCG@10: 0.3865, HIT@10: 0.5423, best epoch: 10
+2025-11-13 16:18:03,639 SASRec: ================================================
+2025-11-13 16:18:04,131 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 16:18:04,132 SASRec: Test User(>=3) : 14794
+2025-11-13 16:18:04,132 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 16:18:04,132 SASRec: Total Interaction : 132595
+2025-11-13 16:18:04,135 SASRec: Average Sequence Length: 5.11
+2025-11-13 16:18:04,367 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 16:18:04,696 SASRec: ===== Using pre-trained embedding from epoch 595 with alpha = 0.8 =====
+2025-11-13 16:18:04,703 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 16:18:36,165 SASRec: ==========================================================
+2025-11-13 16:18:36,165 SASRec: Validation: HIT@10: 0.5751
+2025-11-13 16:18:36,166 SASRec: Overall Result: NDCG@10: 0.3861, HIT@10: 0.5415, best epoch: 10
+2025-11-13 16:18:36,227 SASRec: ==========================================================
+2025-11-13 16:18:36,227 SASRec: Validation: HIT@10: 0.5751
+2025-11-13 16:18:36,228 SASRec: Overall Result: NDCG@10: 0.3861, HIT@10: 0.5415, best epoch: 10
+2025-11-13 17:02:27,475 SASRec: ================================================
+2025-11-13 17:02:27,992 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 17:02:27,993 SASRec: Test User(>=3) : 14794
+2025-11-13 17:02:27,993 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 17:02:27,993 SASRec: Total Interaction : 132595
+2025-11-13 17:02:27,996 SASRec: Average Sequence Length: 5.11
+2025-11-13 17:02:28,233 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 17:02:28,568 SASRec: ===== Using pre-trained embedding from epoch 595 with alpha = 0.5 =====
+2025-11-13 17:02:28,590 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 17:03:02,430 SASRec: ==========================================================
+2025-11-13 17:03:02,431 SASRec: Validation: HIT@10: 0.5750
+2025-11-13 17:03:02,431 SASRec: Overall Result: NDCG@10: 0.3891, HIT@10: 0.5412, best epoch: 15
+2025-11-13 17:03:02,505 SASRec: ==========================================================
+2025-11-13 17:03:02,506 SASRec: Validation: HIT@10: 0.5750
+2025-11-13 17:03:02,506 SASRec: Overall Result: NDCG@10: 0.3891, HIT@10: 0.5412, best epoch: 15
+2025-11-13 17:04:27,782 SASRec: ================================================
+2025-11-13 17:04:28,282 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 17:04:28,282 SASRec: Test User(>=3) : 14794
+2025-11-13 17:04:28,282 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 17:04:28,283 SASRec: Total Interaction : 132595
+2025-11-13 17:04:28,285 SASRec: Average Sequence Length: 5.11
+2025-11-13 17:04:28,519 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 17:04:28,840 SASRec: ===== Using pre-trained embedding from epoch 650 with alpha = 1.0 =====
+2025-11-13 17:04:28,853 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 17:05:02,679 SASRec: ==========================================================
+2025-11-13 17:05:02,679 SASRec: Validation: HIT@10: 0.5744
+2025-11-13 17:05:02,680 SASRec: Overall Result: NDCG@10: 0.3863, HIT@10: 0.5437, best epoch: 10
+2025-11-13 17:05:02,743 SASRec: ==========================================================
+2025-11-13 17:05:02,744 SASRec: Validation: HIT@10: 0.5744
+2025-11-13 17:05:02,744 SASRec: Overall Result: NDCG@10: 0.3863, HIT@10: 0.5437, best epoch: 10
+2025-11-13 17:06:52,182 SASRec: ================================================
+2025-11-13 17:06:52,675 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 17:06:52,676 SASRec: Test User(>=3) : 14794
+2025-11-13 17:06:52,676 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 17:06:52,677 SASRec: Total Interaction : 132595
+2025-11-13 17:06:52,679 SASRec: Average Sequence Length: 5.11
+2025-11-13 17:06:52,910 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 17:06:53,233 SASRec: ===== Using pre-trained embedding from epoch 750 with alpha = 1.0 =====
+2025-11-13 17:06:53,246 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 17:07:28,156 SASRec: ==========================================================
+2025-11-13 17:07:28,156 SASRec: Validation: HIT@10: 0.5755
+2025-11-13 17:07:28,157 SASRec: Overall Result: NDCG@10: 0.3876, HIT@10: 0.5426, best epoch: 10
+2025-11-13 17:07:28,220 SASRec: ==========================================================
+2025-11-13 17:07:28,221 SASRec: Validation: HIT@10: 0.5755
+2025-11-13 17:07:28,221 SASRec: Overall Result: NDCG@10: 0.3876, HIT@10: 0.5426, best epoch: 10
+2025-11-13 17:08:25,996 SASRec: ================================================
+2025-11-13 17:08:26,480 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 17:08:26,480 SASRec: Test User(>=3) : 14794
+2025-11-13 17:08:26,480 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 17:08:26,481 SASRec: Total Interaction : 132595
+2025-11-13 17:08:26,483 SASRec: Average Sequence Length: 5.11
+2025-11-13 17:08:26,708 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 17:08:27,036 SASRec: ===== Using pre-trained embedding from epoch 900 with alpha = 1.0 =====
+2025-11-13 17:08:27,043 SASRec: ============Start Training (SASRec)=======================
+2025-11-13 17:09:01,867 SASRec: ==========================================================
+2025-11-13 17:09:01,867 SASRec: Validation: HIT@10: 0.5758
+2025-11-13 17:09:01,867 SASRec: Overall Result: NDCG@10: 0.3880, HIT@10: 0.5430, best epoch: 10
+2025-11-13 17:09:01,925 SASRec: ==========================================================
+2025-11-13 17:09:01,926 SASRec: Validation: HIT@10: 0.5758
+2025-11-13 17:09:01,926 SASRec: Overall Result: NDCG@10: 0.3880, HIT@10: 0.5430, best epoch: 10

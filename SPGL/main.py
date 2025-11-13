@@ -38,6 +38,9 @@ def main():
     set_random_seed(opt.seed)
     save_path = f'./embeddings/{opt.dataset}'
     os.makedirs(save_path, exist_ok=True)
+    pretrained_embedding = None
+    pretrained_embedding = torch.load('./embeddings/diginetica/epoch28.pt')
+    pretrained_embedding = torch.nn.Parameter(pretrained_embedding, requires_grad=False)
     
     train_data = pickle.load(open('./datasets/' + opt.dataset + '/train.txt', 'rb'))
     test_data = pickle.load(open('./datasets/' + opt.dataset + '/test.txt', 'rb'))
@@ -53,12 +56,19 @@ def main():
         n_node = 309
     train_data = Data(train_data,all_train,opt.hoplimit, shuffle=True, n_node=n_node)
     test_data = Data(test_data,all_train, opt.hoplimit, shuffle=True, n_node=n_node)
-    model = trans_to_cuda(COTREC(adjacency=train_data.adjacency,n_node=n_node,lr=opt.lr, l2=opt.l2,layers=opt.layer,emb_size=opt.embSize, batch_size=opt.batchSize,dataset=opt.dataset,
+    model = COTREC(adjacency=train_data.adjacency,n_node=n_node,lr=opt.lr, l2=opt.l2,layers=opt.layer,emb_size=opt.embSize, batch_size=opt.batchSize,dataset=opt.dataset,
                     temperature=opt.temperature,
                     item_cl_loss_weight=opt.item_cl_loss_weight,
                     sampled_item_size=opt.sampled_item_size,
                     top_k=opt.top_k
-                    ))
+                    )
+    
+    if pretrained_embedding is not None:
+        model.embedding.weight = pretrained_embedding
+        model.embedding.requires_grad_(False)
+
+    model = trans_to_cuda(model)
+
     top_K = [5, 10, 20]
     best_results = {}
     for K in top_K:
@@ -69,7 +79,7 @@ def main():
         print('-------------------------------------------------------')
         print('epoch: ', epoch)
         
-        metrics, total_loss = train_test(model, train_data, test_data, epoch)
+        metrics, total_loss, total_grad_L2, total_grad_L1 = train_test(model, train_data, test_data, epoch)
         for K in top_K:
             metrics['hit%d' % K] = np.mean(metrics['hit%d' % K]) * 100
             metrics['mrr%d' % K] = np.mean(metrics['mrr%d' % K]) * 100
@@ -81,6 +91,7 @@ def main():
                 best_results['epoch%d' % K][1] = epoch
                     
         print(metrics)
+        print(f'Embedding gradient norm: L2 = {total_grad_L2}, L1 = {total_grad_L1}')
         for K in top_K:
             print('train_loss:\t%.4f\tRecall@%d: %.4f\tMRR%d: %.4f\tEpoch: %d,  %d' %
                   (total_loss, K, best_results['metric%d' % K][0], K, best_results['metric%d' % K][1],

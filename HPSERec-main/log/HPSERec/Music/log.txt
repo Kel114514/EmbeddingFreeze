@@ -1,0 +1,216 @@
+2025-11-12 19:36:52,697 Model: ================================================
+2025-11-12 19:36:53,204 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:36:53,204 Model: Test User(>=3) : 14794
+2025-11-12 19:36:53,204 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:36:53,205 Model: Total Interaction : 132595
+2025-11-12 19:36:53,207 Model: Average Sequence Length: 5.11
+2025-11-12 19:36:53,383 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-12 19:36:53,384 Model: Test User(>=3) : 1414
+2025-11-12 19:36:53,384 Model: Total User Number : 20164, Item Number : 20356
+2025-11-12 19:36:53,385 Model: Total Interaction : 16464
+2025-11-12 19:36:53,385 Model: Average Sequence Length: 1.43
+2025-11-12 19:36:53,710 Model: Max user seq : 301, Max item freq : 5, Min item freq : 1, Min user seq : 1
+2025-11-12 19:36:53,711 Model: Test User(>=3) : 4189
+2025-11-12 19:36:53,711 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:36:53,711 Model: Total Interaction : 34475
+2025-11-12 19:36:53,713 Model: Average Sequence Length: 1.84
+2025-11-12 19:36:54,177 Model: Max user seq : 606, Max item freq : 18, Min item freq : 1, Min user seq : 1
+2025-11-12 19:36:54,177 Model: Test User(>=3) : 10229
+2025-11-12 19:36:54,177 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:36:54,177 Model: Total Interaction : 75838
+2025-11-12 19:36:54,180 Model: Average Sequence Length: 2.97
+2025-11-12 19:36:54,635 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:36:54,635 Model: Test User(>=3) : 14794
+2025-11-12 19:36:54,636 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:36:54,636 Model: Total Interaction : 132595
+2025-11-12 19:36:54,639 Model: Average Sequence Length: 5.11
+2025-11-12 19:36:54,898 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-12 19:36:54,898 Model: Test User(>=3) : 1414
+2025-11-12 19:36:54,898 Model: Total User Number : 20164, Item Number : 20356
+2025-11-12 19:36:54,899 Model: Total Interaction : 16464
+2025-11-12 19:36:54,900 Model: Average Sequence Length: 1.43
+2025-11-12 19:36:55,077 Model: Max user seq : 172, Max item freq : 5, Min item freq : 3, Min user seq : 1
+2025-11-12 19:36:55,077 Model: Test User(>=3) : 1557
+2025-11-12 19:36:55,077 Model: Total User Number : 20165, Item Number : 20353
+2025-11-12 19:36:55,077 Model: Total Interaction : 18011
+2025-11-12 19:36:55,078 Model: Average Sequence Length: 1.51
+2025-11-12 19:36:55,365 Model: Max user seq : 305, Max item freq : 18, Min item freq : 5, Min user seq : 1
+2025-11-12 19:36:55,366 Model: Test User(>=3) : 4890
+2025-11-12 19:36:55,366 Model: Total User Number : 20152, Item Number : 20322
+2025-11-12 19:36:55,366 Model: Total Interaction : 41363
+2025-11-12 19:36:55,368 Model: Average Sequence Length: 2.21
+2025-11-12 19:36:55,724 Model: Max user seq : 333, Max item freq : 282, Min item freq : 18, Min user seq : 1
+2025-11-12 19:36:55,725 Model: Test User(>=3) : 6092
+2025-11-12 19:36:55,725 Model: Total User Number : 20136, Item Number : 20223
+2025-11-12 19:36:55,725 Model: Total Interaction : 56757
+2025-11-12 19:36:55,727 Model: Average Sequence Length: 3.72
+2025-11-12 19:40:38,765 Model: ================================================
+2025-11-12 19:40:39,271 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:40:39,271 Model: Test User(>=3) : 14794
+2025-11-12 19:40:39,271 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:40:39,271 Model: Total Interaction : 132595
+2025-11-12 19:40:39,274 Model: Average Sequence Length: 5.11
+2025-11-12 19:40:39,442 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-12 19:40:39,442 Model: Test User(>=3) : 1414
+2025-11-12 19:40:39,442 Model: Total User Number : 20164, Item Number : 20356
+2025-11-12 19:40:39,443 Model: Total Interaction : 16464
+2025-11-12 19:40:39,443 Model: Average Sequence Length: 1.43
+2025-11-12 19:40:39,766 Model: Max user seq : 301, Max item freq : 5, Min item freq : 1, Min user seq : 1
+2025-11-12 19:40:39,766 Model: Test User(>=3) : 4189
+2025-11-12 19:40:39,766 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:40:39,767 Model: Total Interaction : 34475
+2025-11-12 19:40:39,768 Model: Average Sequence Length: 1.84
+2025-11-12 19:40:40,212 Model: Max user seq : 606, Max item freq : 18, Min item freq : 1, Min user seq : 1
+2025-11-12 19:40:40,212 Model: Test User(>=3) : 10229
+2025-11-12 19:40:40,212 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:40:40,213 Model: Total Interaction : 75838
+2025-11-12 19:40:40,215 Model: Average Sequence Length: 2.97
+2025-11-12 19:40:40,670 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:40:40,670 Model: Test User(>=3) : 14794
+2025-11-12 19:40:40,671 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:40:40,671 Model: Total Interaction : 132595
+2025-11-12 19:40:40,673 Model: Average Sequence Length: 5.11
+2025-11-12 19:40:40,942 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-12 19:40:40,943 Model: Test User(>=3) : 1414
+2025-11-12 19:40:40,943 Model: Total User Number : 20164, Item Number : 20356
+2025-11-12 19:40:40,943 Model: Total Interaction : 16464
+2025-11-12 19:40:40,944 Model: Average Sequence Length: 1.43
+2025-11-12 19:40:41,123 Model: Max user seq : 172, Max item freq : 5, Min item freq : 3, Min user seq : 1
+2025-11-12 19:40:41,123 Model: Test User(>=3) : 1557
+2025-11-12 19:40:41,123 Model: Total User Number : 20165, Item Number : 20353
+2025-11-12 19:40:41,124 Model: Total Interaction : 18011
+2025-11-12 19:40:41,124 Model: Average Sequence Length: 1.51
+2025-11-12 19:40:41,409 Model: Max user seq : 305, Max item freq : 18, Min item freq : 5, Min user seq : 1
+2025-11-12 19:40:41,409 Model: Test User(>=3) : 4890
+2025-11-12 19:40:41,410 Model: Total User Number : 20152, Item Number : 20322
+2025-11-12 19:40:41,410 Model: Total Interaction : 41363
+2025-11-12 19:40:41,411 Model: Average Sequence Length: 2.21
+2025-11-12 19:40:41,759 Model: Max user seq : 333, Max item freq : 282, Min item freq : 18, Min user seq : 1
+2025-11-12 19:40:41,759 Model: Test User(>=3) : 6092
+2025-11-12 19:40:41,759 Model: Total User Number : 20136, Item Number : 20223
+2025-11-12 19:40:41,760 Model: Total Interaction : 56757
+2025-11-12 19:40:41,761 Model: Average Sequence Length: 3.72
+2025-11-12 19:46:47,614 Model: ================================================
+2025-11-12 19:46:48,119 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:48,119 Model: Test User(>=3) : 14794
+2025-11-12 19:46:48,119 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:48,119 Model: Total Interaction : 132595
+2025-11-12 19:46:48,122 Model: Average Sequence Length: 5.11
+2025-11-12 19:46:48,294 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:48,294 Model: Test User(>=3) : 1414
+2025-11-12 19:46:48,294 Model: Total User Number : 20164, Item Number : 20356
+2025-11-12 19:46:48,295 Model: Total Interaction : 16464
+2025-11-12 19:46:48,296 Model: Average Sequence Length: 1.43
+2025-11-12 19:46:48,623 Model: Max user seq : 301, Max item freq : 5, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:48,623 Model: Test User(>=3) : 4189
+2025-11-12 19:46:48,623 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:48,624 Model: Total Interaction : 34475
+2025-11-12 19:46:48,625 Model: Average Sequence Length: 1.84
+2025-11-12 19:46:49,078 Model: Max user seq : 606, Max item freq : 18, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:49,079 Model: Test User(>=3) : 10229
+2025-11-12 19:46:49,079 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:49,079 Model: Total Interaction : 75838
+2025-11-12 19:46:49,081 Model: Average Sequence Length: 2.97
+2025-11-12 19:46:49,526 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:49,527 Model: Test User(>=3) : 14794
+2025-11-12 19:46:49,527 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:49,528 Model: Total Interaction : 132595
+2025-11-12 19:46:49,530 Model: Average Sequence Length: 5.11
+2025-11-12 19:46:49,796 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:49,796 Model: Test User(>=3) : 1414
+2025-11-12 19:46:49,797 Model: Total User Number : 20164, Item Number : 20356
+2025-11-12 19:46:49,797 Model: Total Interaction : 16464
+2025-11-12 19:46:49,798 Model: Average Sequence Length: 1.43
+2025-11-12 19:46:49,976 Model: Max user seq : 172, Max item freq : 5, Min item freq : 3, Min user seq : 1
+2025-11-12 19:46:49,976 Model: Test User(>=3) : 1557
+2025-11-12 19:46:49,976 Model: Total User Number : 20165, Item Number : 20353
+2025-11-12 19:46:49,976 Model: Total Interaction : 18011
+2025-11-12 19:46:49,977 Model: Average Sequence Length: 1.51
+2025-11-12 19:46:50,257 Model: Max user seq : 305, Max item freq : 18, Min item freq : 5, Min user seq : 1
+2025-11-12 19:46:50,257 Model: Test User(>=3) : 4890
+2025-11-12 19:46:50,257 Model: Total User Number : 20152, Item Number : 20322
+2025-11-12 19:46:50,258 Model: Total Interaction : 41363
+2025-11-12 19:46:50,259 Model: Average Sequence Length: 2.21
+2025-11-12 19:46:50,621 Model: Max user seq : 333, Max item freq : 282, Min item freq : 18, Min user seq : 1
+2025-11-12 19:46:50,621 Model: Test User(>=3) : 6092
+2025-11-12 19:46:50,622 Model: Total User Number : 20136, Item Number : 20223
+2025-11-12 19:46:50,622 Model: Total Interaction : 56757
+2025-11-12 19:46:50,623 Model: Average Sequence Length: 3.72
+2025-11-12 19:46:51,058 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:51,059 Model: Test User(>=3) : 14794
+2025-11-12 19:46:51,059 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:51,059 Model: Total Interaction : 132595
+2025-11-12 19:46:51,062 Model: Average Sequence Length: 5.11
+2025-11-12 19:46:51,631 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:51,632 Model: Test User(>=3) : 14794
+2025-11-12 19:46:51,632 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:51,632 Model: Total Interaction : 132595
+2025-11-12 19:46:51,635 Model: Average Sequence Length: 5.11
+2025-11-12 19:46:52,063 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-12 19:46:52,064 Model: Test User(>=3) : 14794
+2025-11-12 19:46:52,064 Model: Total User Number : 20165, Item Number : 20356
+2025-11-12 19:46:52,064 Model: Total Interaction : 132595
+2025-11-12 19:46:52,067 Model: Average Sequence Length: 5.11
+2025-11-13 14:19:11,926 Model: ================================================
+2025-11-13 14:19:12,450 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:12,451 Model: Test User(>=3) : 14794
+2025-11-13 14:19:12,451 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:12,451 Model: Total Interaction : 132595
+2025-11-13 14:19:12,454 Model: Average Sequence Length: 5.11
+2025-11-13 14:19:12,645 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:12,645 Model: Test User(>=3) : 1414
+2025-11-13 14:19:12,646 Model: Total User Number : 20164, Item Number : 20356
+2025-11-13 14:19:12,646 Model: Total Interaction : 16464
+2025-11-13 14:19:12,647 Model: Average Sequence Length: 1.43
+2025-11-13 14:19:12,977 Model: Max user seq : 301, Max item freq : 5, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:12,977 Model: Test User(>=3) : 4189
+2025-11-13 14:19:12,978 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:12,978 Model: Total Interaction : 34475
+2025-11-13 14:19:12,979 Model: Average Sequence Length: 1.84
+2025-11-13 14:19:13,464 Model: Max user seq : 606, Max item freq : 18, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:13,464 Model: Test User(>=3) : 10229
+2025-11-13 14:19:13,465 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:13,465 Model: Total Interaction : 75838
+2025-11-13 14:19:13,467 Model: Average Sequence Length: 2.97
+2025-11-13 14:19:13,937 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:13,937 Model: Test User(>=3) : 14794
+2025-11-13 14:19:13,937 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:13,937 Model: Total Interaction : 132595
+2025-11-13 14:19:13,940 Model: Average Sequence Length: 5.11
+2025-11-13 14:19:14,220 Model: Max user seq : 129, Max item freq : 3, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:14,222 Model: Test User(>=3) : 1414
+2025-11-13 14:19:14,222 Model: Total User Number : 20164, Item Number : 20356
+2025-11-13 14:19:14,223 Model: Total Interaction : 16464
+2025-11-13 14:19:14,223 Model: Average Sequence Length: 1.43
+2025-11-13 14:19:14,417 Model: Max user seq : 172, Max item freq : 5, Min item freq : 3, Min user seq : 1
+2025-11-13 14:19:14,417 Model: Test User(>=3) : 1557
+2025-11-13 14:19:14,418 Model: Total User Number : 20165, Item Number : 20353
+2025-11-13 14:19:14,418 Model: Total Interaction : 18011
+2025-11-13 14:19:14,419 Model: Average Sequence Length: 1.51
+2025-11-13 14:19:14,714 Model: Max user seq : 305, Max item freq : 18, Min item freq : 5, Min user seq : 1
+2025-11-13 14:19:14,715 Model: Test User(>=3) : 4890
+2025-11-13 14:19:14,715 Model: Total User Number : 20152, Item Number : 20322
+2025-11-13 14:19:14,716 Model: Total Interaction : 41363
+2025-11-13 14:19:14,717 Model: Average Sequence Length: 2.21
+2025-11-13 14:19:15,082 Model: Max user seq : 333, Max item freq : 282, Min item freq : 18, Min user seq : 1
+2025-11-13 14:19:15,082 Model: Test User(>=3) : 6092
+2025-11-13 14:19:15,082 Model: Total User Number : 20136, Item Number : 20223
+2025-11-13 14:19:15,083 Model: Total Interaction : 56757
+2025-11-13 14:19:15,084 Model: Average Sequence Length: 3.72
+2025-11-13 14:19:15,542 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:15,543 Model: Test User(>=3) : 14794
+2025-11-13 14:19:15,543 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:15,543 Model: Total Interaction : 132595
+2025-11-13 14:19:15,546 Model: Average Sequence Length: 5.11
+2025-11-13 14:19:16,121 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:16,121 Model: Test User(>=3) : 14794
+2025-11-13 14:19:16,121 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:16,121 Model: Total Interaction : 132595
+2025-11-13 14:19:16,124 Model: Average Sequence Length: 5.11
+2025-11-13 14:19:16,572 Model: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 14:19:16,572 Model: Test User(>=3) : 14794
+2025-11-13 14:19:16,573 Model: Total User Number : 20165, Item Number : 20356
+2025-11-13 14:19:16,573 Model: Total Interaction : 132595
+2025-11-13 14:19:16,575 Model: Average Sequence Length: 5.11
+2025-11-13 14:19:16,841 Model: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 14:19:17,188 Model: ============Start Training (MyModel)=======================

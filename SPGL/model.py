@@ -257,6 +257,8 @@ def find_k_largest(K, candidates):
 def train_test(model, train_data, test_data, epoch):
     print('start training: ', datetime.datetime.now())
     total_loss = 0.0
+    total_grad_L2 = 0.0
+    total_grad_L1 = 0.0
     slices = train_data.generate_batch(model.batch_size)
     for i in slices:
         model.zero_grad()
@@ -265,6 +267,11 @@ def train_test(model, train_data, test_data, epoch):
         loss.backward()
         model.optimizer.step()
         total_loss += loss.item()
+        if model.embedding.weight.grad is not None:
+            grad_l2=torch.norm(model.embedding.weight.grad, p=2, dim=1)
+            grad_l1=torch.norm(model.embedding.weight.grad, p=1, dim=1)
+            total_grad_L2 += torch.mean(grad_l2).item()
+            total_grad_L1 += torch.mean(grad_l1).item()
     print('\tLoss:\t%.3f' % total_loss)
     top_K = [5, 10, 20]
     metrics = {}
@@ -295,6 +302,6 @@ def train_test(model, train_data, test_data, epoch):
                 else:
                     # np.where(prediction == target)[0][0]：首先 [0] 提取索引数组，然后 [0] 再次提取这个数组的第一个元素。
                     metrics['mrr%d' % K].append(1 / (np.where(prediction == target)[0][0] + 1))
-    return metrics, total_loss
+    return metrics, total_loss, total_grad_L2, total_grad_L1
 
 

@@ -1,0 +1,247 @@
+Namespace(dataset_path='datasets/diginetica/', batch_size=512, hidden_size=64, embed_dim=64, epoch=20, lr=0.0003, lr_dc=0.1, lr_dc_step=80, test=False, topk=20, valid_portion=0.1)
+Loading data...
+--------------------------------------------------
+Dataset info:
+Number of sessions: 647523
+--------------------------------------------------
+--------------------------------------------------
+Dataset info:
+Number of sessions: 71947
+--------------------------------------------------
+--------------------------------------------------
+Dataset info:
+Number of sessions: 68977
+--------------------------------------------------
+[TRAIN] epoch 1/20 batch loss: 13.3528 (avg 13.3528) (48.22 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 1/20 batch loss: 7.1891 (avg 9.2708) (2653.92 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 1/20 batch loss: 6.1876 (avg 7.9307) (2959.88 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 1/20 batch loss: 5.5814 (avg 7.2499) (2679.26 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 1/20 batch loss: 5.5526 (avg 6.8319) (2837.62 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 1/20 batch loss: 5.3755 (avg 6.5484) (2087.26 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 1/20 batch loss: 5.2398 (avg 6.3427) (2088.80 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+Epoch 0 validation: Recall@20: 0.6624, MRR@20: 0.2374 
+
+[TRAIN] epoch 2/20 batch loss: 5.1131 (avg 5.1131) (727.52 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 2/20 batch loss: 5.3026 (avg 5.2120) (2774.98 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 2/20 batch loss: 4.9737 (avg 5.1920) (1880.06 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 2/20 batch loss: 5.1173 (avg 5.1706) (2910.16 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 2/20 batch loss: 5.1968 (avg 5.1541) (3087.75 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 2/20 batch loss: 4.9063 (avg 5.1358) (2747.52 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 2/20 batch loss: 5.1973 (avg 5.1246) (2985.38 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+Epoch 1 validation: Recall@20: 0.6684, MRR@20: 0.2421 
+
+[TRAIN] epoch 3/20 batch loss: 4.9560 (avg 4.9560) (756.18 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 3/20 batch loss: 5.1857 (avg 5.0342) (3050.87 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 3/20 batch loss: 5.0272 (avg 5.0327) (3008.49 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 3/20 batch loss: 4.9505 (avg 5.0291) (2611.48 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 3/20 batch loss: 5.0500 (avg 5.0198) (3046.32 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 3/20 batch loss: 5.2149 (avg 5.0181) (3013.61 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 3/20 batch loss: 4.8669 (avg 5.0140) (2469.99 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+Epoch 2 validation: Recall@20: 0.6707, MRR@20: 0.2430 
+
+[TRAIN] epoch 4/20 batch loss: 5.0660 (avg 5.0660) (730.97 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 4/20 batch loss: 4.8278 (avg 4.9644) (2881.02 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 4/20 batch loss: 5.0964 (avg 4.9729) (1969.98 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 4/20 batch loss: 5.2268 (avg 4.9790) (2950.45 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 4/20 batch loss: 5.0160 (avg 4.9796) (2883.52 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 4/20 batch loss: 5.1742 (avg 4.9757) (2690.84 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 4/20 batch loss: 4.9198 (avg 4.9739) (2954.28 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+Epoch 3 validation: Recall@20: 0.6710, MRR@20: 0.2435 
+
+[TRAIN] epoch 5/20 batch loss: 4.9246 (avg 4.9246) (784.99 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 5/20 batch loss: 4.9679 (avg 4.9663) (2980.13 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 5/20 batch loss: 4.9623 (avg 4.9566) (2948.71 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 5/20 batch loss: 4.9903 (avg 4.9557) (3117.59 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 5/20 batch loss: 5.0036 (avg 4.9568) (3019.20 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 5/20 batch loss: 5.0076 (avg 4.9541) (3123.21 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+[TRAIN] epoch 5/20 batch loss: 4.9508 (avg 4.9514) (2927.15 im/s)
+Embedding gradient norm: L2 = 0.0, L1 = 0.0
+Epoch 4 validation: Recall@20: 0.6715, MRR@20: 0.2439 
+
+===== Start fine-tuning embedding layer. =====
+[TRAIN] epoch 6/20 batch loss: 4.8645 (avg 4.8645) (579.75 im/s)
+Embedding gradient norm: L2 = 0.00017998645489569753, L1 = 0.0011440606322139502
+[TRAIN] epoch 6/20 batch loss: 5.0760 (avg 4.9587) (2391.14 im/s)
+Embedding gradient norm: L2 = 0.0001808863307815045, L1 = 0.0011465714778751135
+[TRAIN] epoch 6/20 batch loss: 5.0106 (avg 4.9513) (1171.21 im/s)
+Embedding gradient norm: L2 = 0.00017561213462613523, L1 = 0.0011142180301249027
+[TRAIN] epoch 6/20 batch loss: 4.7095 (avg 4.9449) (2367.48 im/s)
+Embedding gradient norm: L2 = 0.00018150040705222636, L1 = 0.00115731090772897
+[TRAIN] epoch 6/20 batch loss: 4.9958 (avg 4.9416) (2429.11 im/s)
+Embedding gradient norm: L2 = 0.00017710511747281998, L1 = 0.0011244238121435046
+[TRAIN] epoch 6/20 batch loss: 5.0254 (avg 4.9414) (2589.75 im/s)
+Embedding gradient norm: L2 = 0.0001829206448746845, L1 = 0.0011622209567576647
+[TRAIN] epoch 6/20 batch loss: 4.6502 (avg 4.9410) (2599.72 im/s)
+Embedding gradient norm: L2 = 0.0001710987853584811, L1 = 0.001088606077246368
+Epoch 5 validation: Recall@20: 0.6717, MRR@20: 0.2432 
+
+[TRAIN] epoch 7/20 batch loss: 4.9067 (avg 4.9067) (744.28 im/s)
+Embedding gradient norm: L2 = 0.00017519165703561157, L1 = 0.0011135259410366416
+[TRAIN] epoch 7/20 batch loss: 5.1130 (avg 4.9222) (2462.74 im/s)
+Embedding gradient norm: L2 = 0.00017989857587963343, L1 = 0.0011412216117605567
+[TRAIN] epoch 7/20 batch loss: 5.1834 (avg 4.9202) (2480.68 im/s)
+Embedding gradient norm: L2 = 0.00017963814025279135, L1 = 0.0011373976012691855
+[TRAIN] epoch 7/20 batch loss: 4.9184 (avg 4.9235) (2380.14 im/s)
+Embedding gradient norm: L2 = 0.00017757566820364445, L1 = 0.001126180519349873
+[TRAIN] epoch 7/20 batch loss: 4.9362 (avg 4.9245) (2655.51 im/s)
+Embedding gradient norm: L2 = 0.00018078963330481201, L1 = 0.0011472032638266683
+[TRAIN] epoch 7/20 batch loss: 4.9096 (avg 4.9267) (2492.24 im/s)
+Embedding gradient norm: L2 = 0.0001738074643071741, L1 = 0.0011048399610444903
+[TRAIN] epoch 7/20 batch loss: 4.7448 (avg 4.9261) (2619.72 im/s)
+Embedding gradient norm: L2 = 0.00017554634541738778, L1 = 0.0011135279200971127
+Epoch 6 validation: Recall@20: 0.6706, MRR@20: 0.2435 
+
+[TRAIN] epoch 8/20 batch loss: 4.8956 (avg 4.8956) (1021.95 im/s)
+Embedding gradient norm: L2 = 0.0001744307519402355, L1 = 0.001110148150473833
+[TRAIN] epoch 8/20 batch loss: 4.7669 (avg 4.9038) (2641.16 im/s)
+Embedding gradient norm: L2 = 0.00017419394862372428, L1 = 0.0011049535823985934
+[TRAIN] epoch 8/20 batch loss: 5.0103 (avg 4.9162) (2444.76 im/s)
+Embedding gradient norm: L2 = 0.00018159335013478994, L1 = 0.0011517913080751896
+[TRAIN] epoch 8/20 batch loss: 4.9139 (avg 4.9145) (2339.06 im/s)
+Embedding gradient norm: L2 = 0.00017708755331113935, L1 = 0.0011256614234298468
+[TRAIN] epoch 8/20 batch loss: 4.7548 (avg 4.9135) (2015.68 im/s)
+Embedding gradient norm: L2 = 0.00018114130944013596, L1 = 0.0011497141094878316
+[TRAIN] epoch 8/20 batch loss: 4.9126 (avg 4.9159) (2710.05 im/s)
+Embedding gradient norm: L2 = 0.00018112047109752893, L1 = 0.0011489149183034897
+[TRAIN] epoch 8/20 batch loss: 5.0170 (avg 4.9165) (2419.15 im/s)
+Embedding gradient norm: L2 = 0.00017608390771783888, L1 = 0.0011192744132131338
+Epoch 7 validation: Recall@20: 0.6703, MRR@20: 0.2430 
+
+[TRAIN] epoch 9/20 batch loss: 4.8537 (avg 4.8537) (839.16 im/s)
+Embedding gradient norm: L2 = 0.0001779200683813542, L1 = 0.0011293928837403655
+[TRAIN] epoch 9/20 batch loss: 5.1268 (avg 4.9119) (2601.67 im/s)
+Embedding gradient norm: L2 = 0.000180921982973814, L1 = 0.001147724804468453
+[TRAIN] epoch 9/20 batch loss: 5.1366 (avg 4.9061) (1945.03 im/s)
+Embedding gradient norm: L2 = 0.00018248349078930914, L1 = 0.001156661775894463
+[TRAIN] epoch 9/20 batch loss: 4.9724 (avg 4.9085) (2468.84 im/s)
+Embedding gradient norm: L2 = 0.00017525530711282045, L1 = 0.001114211161620915
+[TRAIN] epoch 9/20 batch loss: 4.8819 (avg 4.9097) (1169.60 im/s)
+Embedding gradient norm: L2 = 0.00017417014169041067, L1 = 0.0011066608130931854
+[TRAIN] epoch 9/20 batch loss: 4.9408 (avg 4.9122) (2600.31 im/s)
+Embedding gradient norm: L2 = 0.00018168044334743172, L1 = 0.0011545720044523478
+[TRAIN] epoch 9/20 batch loss: 5.0607 (avg 4.9110) (2243.32 im/s)
+Embedding gradient norm: L2 = 0.0001763513864716515, L1 = 0.0011197318090125918
+Epoch 8 validation: Recall@20: 0.6699, MRR@20: 0.2424 
+
+[TRAIN] epoch 10/20 batch loss: 4.8516 (avg 4.8516) (1036.55 im/s)
+Embedding gradient norm: L2 = 0.0001749196817399934, L1 = 0.0011111671337857842
+[TRAIN] epoch 10/20 batch loss: 4.8723 (avg 4.9049) (2519.98 im/s)
+Embedding gradient norm: L2 = 0.0001758315193001181, L1 = 0.0011186044430360198
+[TRAIN] epoch 10/20 batch loss: 4.5545 (avg 4.9017) (2582.78 im/s)
+Embedding gradient norm: L2 = 0.00017556242528371513, L1 = 0.0011163657763972878
+[TRAIN] epoch 10/20 batch loss: 4.9027 (avg 4.9019) (2739.30 im/s)
+Embedding gradient norm: L2 = 0.00017775193555280566, L1 = 0.001126167131587863
+[TRAIN] epoch 10/20 batch loss: 4.8592 (avg 4.9017) (2490.13 im/s)
+Embedding gradient norm: L2 = 0.00017558110994286835, L1 = 0.0011147286277264357
+[TRAIN] epoch 10/20 batch loss: 4.8540 (avg 4.9018) (1424.62 im/s)
+Embedding gradient norm: L2 = 0.00017892016330733895, L1 = 0.0011381175136193633
+[TRAIN] epoch 10/20 batch loss: 4.8958 (avg 4.9044) (2609.76 im/s)
+Embedding gradient norm: L2 = 0.00017374866001773626, L1 = 0.0011065236758440733
+Epoch 9 validation: Recall@20: 0.6692, MRR@20: 0.2421 
+
+[TRAIN] epoch 11/20 batch loss: 4.9063 (avg 4.9063) (980.68 im/s)
+Embedding gradient norm: L2 = 0.0001756288402248174, L1 = 0.0011155200190842152
+[TRAIN] epoch 11/20 batch loss: 4.8035 (avg 4.8809) (2463.88 im/s)
+Embedding gradient norm: L2 = 0.00017672686954028904, L1 = 0.0011235765414312482
+[TRAIN] epoch 11/20 batch loss: 4.7690 (avg 4.8887) (2593.88 im/s)
+Embedding gradient norm: L2 = 0.00017851511074695736, L1 = 0.001136941253207624
+[TRAIN] epoch 11/20 batch loss: 4.8486 (avg 4.8937) (2730.29 im/s)
+Embedding gradient norm: L2 = 0.00017929401656147093, L1 = 0.0011386838741600513
+[TRAIN] epoch 11/20 batch loss: 4.7059 (avg 4.8947) (2614.73 im/s)
+Embedding gradient norm: L2 = 0.0001791985851014033, L1 = 0.001141162938438356
+[TRAIN] epoch 11/20 batch loss: 4.8977 (avg 4.8957) (995.61 im/s)
+Embedding gradient norm: L2 = 0.0001813623239286244, L1 = 0.0011538461549207568
+[TRAIN] epoch 11/20 batch loss: 5.0723 (avg 4.8959) (2348.30 im/s)
+Embedding gradient norm: L2 = 0.000173209686181508, L1 = 0.0010989749571308494
+Epoch 10 validation: Recall@20: 0.6681, MRR@20: 0.2414 
+
+[TRAIN] epoch 12/20 batch loss: 4.9988 (avg 4.9988) (1012.13 im/s)
+Embedding gradient norm: L2 = 0.0001842493802541867, L1 = 0.0011743817012757063
+[TRAIN] epoch 12/20 batch loss: 4.8778 (avg 4.8938) (2746.19 im/s)
+Embedding gradient norm: L2 = 0.00018170539988204837, L1 = 0.00115464988630265
+[TRAIN] epoch 12/20 batch loss: 4.7714 (avg 4.8930) (2652.68 im/s)
+Embedding gradient norm: L2 = 0.0001772984251147136, L1 = 0.0011282491032034159
+[TRAIN] epoch 12/20 batch loss: 5.1762 (avg 4.8937) (981.24 im/s)
+Embedding gradient norm: L2 = 0.00017896536155603826, L1 = 0.0011373497545719147
+[TRAIN] epoch 12/20 batch loss: 4.8943 (avg 4.8935) (2524.05 im/s)
+Embedding gradient norm: L2 = 0.0001777933503035456, L1 = 0.001128236879594624
+[TRAIN] epoch 12/20 batch loss: 5.1037 (avg 4.8948) (1402.97 im/s)
+Embedding gradient norm: L2 = 0.00018222678045276552, L1 = 0.0011568209156394005
+[TRAIN] epoch 12/20 batch loss: 4.9296 (avg 4.8940) (2398.98 im/s)
+Embedding gradient norm: L2 = 0.00018035653920378536, L1 = 0.0011449697194620967
+Epoch 11 validation: Recall@20: 0.6694, MRR@20: 0.2415 
+
+[TRAIN] epoch 13/20 batch loss: 4.5707 (avg 4.5707) (1065.43 im/s)
+Embedding gradient norm: L2 = 0.00017009585280902684, L1 = 0.001082445029169321
+[TRAIN] epoch 13/20 batch loss: 4.7536 (avg 4.8832) (2359.49 im/s)
+Embedding gradient norm: L2 = 0.00017428248247597367, L1 = 0.0011068015592172742
+[TRAIN] epoch 13/20 batch loss: 5.2021 (avg 4.8869) (2478.67 im/s)
+Embedding gradient norm: L2 = 0.00018217650358565152, L1 = 0.0011541201965883374
+[TRAIN] epoch 13/20 batch loss: 5.0241 (avg 4.8902) (2564.00 im/s)
+Embedding gradient norm: L2 = 0.000179003705852665, L1 = 0.0011338208569213748
+[TRAIN] epoch 13/20 batch loss: 4.9393 (avg 4.8934) (2818.85 im/s)
+Embedding gradient norm: L2 = 0.0001818708551581949, L1 = 0.0011537495302036405
+[TRAIN] epoch 13/20 batch loss: 4.9377 (avg 4.8890) (2630.44 im/s)
+Embedding gradient norm: L2 = 0.0001811525726225227, L1 = 0.0011520676780492067
+[TRAIN] epoch 13/20 batch loss: 4.9490 (avg 4.8893) (2242.94 im/s)
+Embedding gradient norm: L2 = 0.0001796939322957769, L1 = 0.0011409627040848136
+Epoch 12 validation: Recall@20: 0.6689, MRR@20: 0.2414 
+
+[TRAIN] epoch 14/20 batch loss: 4.9424 (avg 4.9424) (1042.06 im/s)
+Embedding gradient norm: L2 = 0.00017573767399881035, L1 = 0.0011147803161293268
+[TRAIN] epoch 14/20 batch loss: 4.7401 (avg 4.8877) (2793.56 im/s)
+Embedding gradient norm: L2 = 0.00017338899488095194, L1 = 0.0010999585501849651
+[TRAIN] epoch 14/20 batch loss: 4.6280 (avg 4.8793) (2738.27 im/s)
+Embedding gradient norm: L2 = 0.00017842197848949581, L1 = 0.0011375572066754103
+[TRAIN] epoch 14/20 batch loss: 5.0563 (avg 4.8831) (2755.40 im/s)
+Embedding gradient norm: L2 = 0.00017693982226774096, L1 = 0.0011238729348406196
+[TRAIN] epoch 14/20 batch loss: 4.9925 (avg 4.8839) (2428.59 im/s)
+Embedding gradient norm: L2 = 0.00018030284263659269, L1 = 0.001145463902503252
+[TRAIN] epoch 14/20 batch loss: 5.0121 (avg 4.8833) (2438.92 im/s)
+Embedding gradient norm: L2 = 0.0001811985857784748, L1 = 0.0011539309052750468
+[TRAIN] epoch 14/20 batch loss: 5.2438 (avg 4.8845) (2435.20 im/s)
+Embedding gradient norm: L2 = 0.00018153773271478713, L1 = 0.0011505724396556616
+Epoch 13 validation: Recall@20: 0.6677, MRR@20: 0.2410 
+
+[TRAIN] epoch 15/20 batch loss: 4.9750 (avg 4.9750) (1058.39 im/s)
+Embedding gradient norm: L2 = 0.00018184589862357825, L1 = 0.0011548169422894716
+[TRAIN] epoch 15/20 batch loss: 4.7506 (avg 4.8832) (2667.15 im/s)
+Embedding gradient norm: L2 = 0.00018175110744778067, L1 = 0.0011531218187883496
+[TRAIN] epoch 15/20 batch loss: 4.8428 (avg 4.8761) (2544.27 im/s)
+Embedding gradient norm: L2 = 0.00017884963017422706, L1 = 0.0011398716596886516
+[TRAIN] epoch 15/20 batch loss: 4.7556 (avg 4.8782) (2261.40 im/s)
+Embedding gradient norm: L2 = 0.00017431643209420145, L1 = 0.001107797841541469

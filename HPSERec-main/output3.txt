@@ -1,0 +1,36 @@
+2025-11-13 15:41:08,933 SASRec: ================================================
+/mnt/e/desktop/github/EmbeddingFreeze/HPSERec-main
+2025-11-13 15:41:09,438 SASRec: Max user seq : 714, Max item freq : 282, Min item freq : 1, Min user seq : 1
+2025-11-13 15:41:09,438 SASRec: Test User(>=3) : 14794
+2025-11-13 15:41:09,438 SASRec: Total User Number : 20165, Item Number : 20356
+2025-11-13 15:41:09,439 SASRec: Total Interaction : 132595
+2025-11-13 15:41:09,441 SASRec: Average Sequence Length: 5.11
+2025-11-13 15:41:09,686 SASRec: User Thres: 6.0, Item Thres: 6.0, Pareto(0.8)
+2025-11-13 15:41:10,014 SASRec: ===== Using pre-trained embedding from epoch 550 =====
+2025-11-13 15:41:10,022 SASRec: ============Start Training (SASRec)=======================
+Epoch: 5, Valid HIT@10: 0.5610, NDCG@10: 0.3961
+Loss: 34.66495123505592; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 10, Valid HIT@10: 0.5641, NDCG@10: 0.4022
+Loss: 26.981445759534836; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 15, Valid HIT@10: 0.5655, NDCG@10: 0.4046
+Loss: 23.04620461165905; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 20, Valid HIT@10: 0.5675, NDCG@10: 0.4089
+Loss: 21.42633804678917; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 25, Valid HIT@10: 0.5675, NDCG@10: 0.4095
+Loss: 19.444610863924026; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 30, Valid HIT@10: 0.5678, NDCG@10: 0.4098
+Loss: 18.58342880010605; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 35, Valid HIT@10: 0.5655, NDCG@10: 0.4074
+Loss: 17.627604261040688; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 40, Valid HIT@10: 0.5671, NDCG@10: 0.4077
+Loss: 17.203896202147007; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 45, Valid HIT@10: 0.5687, NDCG@10: 0.4079
+Loss: 16.4224763661623; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+Epoch: 50, Valid HIT@10: 0.5648, NDCG@10: 0.4080
+Loss: 16.394725531339645; Item Emb Grad L2: 0.00, L1: 0.00; Pos Emb Grad L2: 0.00, L1: 0.00
+2025-11-13 15:41:54,711 SASRec: ==========================================================
+2025-11-13 15:41:54,712 SASRec: Validation: HIT@10: 0.5687
+2025-11-13 15:41:54,712 SASRec: Overall Result: NDCG@10: 0.3855, HIT@10: 0.5413, best epoch: 45
+2025-11-13 15:41:54,753 SASRec: ==========================================================
+2025-11-13 15:41:54,754 SASRec: Validation: HIT@10: 0.5687
+2025-11-13 15:41:54,754 SASRec: Overall Result: NDCG@10: 0.3855, HIT@10: 0.5413, best epoch: 45

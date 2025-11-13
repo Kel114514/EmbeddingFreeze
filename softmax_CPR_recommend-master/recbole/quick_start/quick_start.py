@@ -16,6 +16,7 @@ from recbole.config import Config
 from recbole.data import create_dataset, data_preparation, save_split_dataloaders, load_split_dataloaders
 from recbole.utils import init_logger, get_model, get_trainer, init_seed, set_color
 
+import os
 
 def run_recbole(model=None, dataset=None, config_file_list=None, config_dict=None, saved=True):
     r""" A fast running api, which includes the complete process of
@@ -33,6 +34,7 @@ def run_recbole(model=None, dataset=None, config_file_list=None, config_dict=Non
     init_seed(config['seed'], config['reproducibility'])
     # logger initialization
     init_logger(config)
+    logging.basicConfig(filename=config['log_filename'])
     logger = getLogger()
 
     logger.info(config)
@@ -49,7 +51,8 @@ def run_recbole(model=None, dataset=None, config_file_list=None, config_dict=Non
         save_split_dataloaders(config, dataloaders=(train_data, valid_data, test_data))
 
     # model loading and initialization
-    model = get_model(config['model'])(config, train_data.dataset).to(config['device'])
+    model = get_model(config['model'])(config, train_data.dataset)
+    model = model.to(config['device'])
     logger.info(model)
 
     total_params = sum(x.data.nelement() for x in model.parameters())
@@ -58,10 +61,34 @@ def run_recbole(model=None, dataset=None, config_file_list=None, config_dict=Non
     # trainer loading and initialization
     trainer = get_trainer(config['MODEL_TYPE'], config['model'])(config, model)
 
+    # =============================== MODIFIED PART ===============================
+    # Added call_back_fn to store embeddings. Use an absolute path anchored at repository root
+    # so saving is not affected by the process current working directory.
+    repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+    save_path = os.path.join(repo_root, 'embeddings', config['dataset'])
+    os.makedirs(save_path, exist_ok=True)
+    pretrained_embedding = None
+    embedding_layer_name = 'item_embedding' #if hasattr(model, 'item_embedding') else 'emb'
+
+    if config_dict["pretrain_embedding_epoch"] is not None:
+        embedding_path = f'{save_path}/epoch{config_dict["pretrain_embedding_epoch"]}.pt'
+        pretrained_embedding = torch.load(embedding_path)
+        model_embedding = getattr(model, embedding_layer_name)
+        model_embedding.weight = pretrained_embedding
+        model_embedding.requires_grad_(False)
+        print('===== Using pre-trained embedding from epoch {} ====='.format(config["pretrain_embedding_epoch"]))
+        callback_fn = None
+    else:
+        print('===== Training embedding from scratch =====')
+        def callback_fn(epoch, *args, **kwargs):
+            embedding_path = f'{save_path}/epoch{epoch}.pt'
+            # print(f'Saving embeddings to {embedding_path}')
+            torch.save(getattr(model, embedding_layer_name).weight, embedding_path)
     # model training
     best_valid_score, best_valid_result = trainer.fit(
-        train_data, valid_data, saved=saved, show_progress=config['show_progress']
+        train_data, valid_data, saved=saved, show_progress=config['show_progress'], callback_fn=callback_fn
     )
+    # =============================== MODIFIED PART ===============================
 
     # model evaluation
     test_result = trainer.evaluate(test_data, load_best_model=saved, show_progress=config['show_progress'])
@@ -88,7 +115,7 @@ def objective_function(config_dict=None, config_file_list=None, saved=True):
 
     config = Config(config_dict=config_dict, config_file_list=config_file_list)
     init_seed(config['seed'], config['reproducibility'])
-    logging.basicConfig(level=logging.ERROR)
+    logging.basicConfig(filename=config['log_filename'], level=logging.ERROR)
     dataset = create_dataset(config)
     train_data, valid_data, test_data = data_preparation(config, dataset)
     model = get_model(config['model'])(config, train_data.dataset).to(config['device'])

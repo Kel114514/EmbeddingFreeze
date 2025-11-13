@@ -162,6 +162,7 @@ class Trainer(AbstractTrainer):
                 desc=set_color(f"Train {epoch_idx:>5}", 'pink'),
             ) if show_progress else train_data
         )
+
         for batch_idx, interaction in enumerate(iter_data):
             interaction = interaction.to(self.device)
             self.optimizer.zero_grad()
@@ -180,6 +181,22 @@ class Trainer(AbstractTrainer):
             self.optimizer.step()
             if self.gpu_available and show_progress:
                 iter_data.set_postfix_str(set_color('GPU RAM: ' + get_gpu_usage(self.device), 'yellow'))
+
+        # =============================== MODIFIED PART ===============================
+        # Added gradient norm logging
+        for name, param in self.model.named_parameters():
+            if 'emb' in name:
+                if param.grad is not None:
+                    # grad_norm = param.grad.data.norm(2).item()
+                    grad_l2=torch.norm(param.grad, p=2, dim=1)
+                    grad_l1=torch.norm(param.grad, p=1, dim=1)
+                else:
+                    grad_l2 = torch.zeros(1)
+                    grad_l1 = torch.zeros(1)
+                self.tensorboard.add_scalar(f'GradNormL2/{name}', torch.mean(grad_l2).item(), epoch_idx)
+                self.tensorboard.add_scalar(f'GradNormL1/{name}', torch.mean(grad_l1).item(), epoch_idx)
+        # =============================== MODIFIED PART ===============================
+
         return total_loss
 
     def _valid_epoch(self, valid_data, show_progress=False):
@@ -349,6 +366,17 @@ class Trainer(AbstractTrainer):
                     self.logger.info(valid_score_output)
                     self.logger.info(valid_result_output)
                 self.tensorboard.add_scalar('Vaild_score', valid_score, epoch_idx)
+                # =============================== MODIFIED PART ===============================
+                # log every metric returned by evaluator into TensorBoard under Valid/...
+                for metric_name, metric_val in valid_result.items():
+                    # sanitize tag: replace '@' with '_' so tensorboard tags are nicer
+                    tag = f'Valid/{metric_name.replace("@", "_")}'
+                    try:
+                        # add_scalar expects a scalar (float); metrics are already rounded floats
+                        self.tensorboard.add_scalar(tag, metric_val, epoch_idx)
+                    except Exception:
+                        # don't fail the training if TB logging breaks for any metric
+                        self.logger.warning(f'Failed to write metric {metric_name} to TensorBoard')
 
                 if update_flag:
                     if saved:
