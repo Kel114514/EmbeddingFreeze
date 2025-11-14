@@ -29,39 +29,46 @@ class Trainer(embedder):
         else:
             self.logger.info(f"===== Using pre-trained embedding from epoch {args.pretrain_embedding_epoch} with alpha = {args.pretrain_alpha} =====")
 
+    def prepare_model(self):
+        self.model = SASRec(self.args, self.item_num)
+        self.init_param()
+        save_path = f"./saves_full/{self.args.dataset}/{self.args.model}"
+        os.makedirs(save_path, exist_ok=True)
+        if self.args.pretrain_embedding_epoch is not None:
+            pretrained_model_path = '/mnt/e/desktop/github/EmbeddingFreeze/HPSERec-main/save_model/Music/HPSERec_Music3.pth'
+            # pretrained_model_path = f"{save_path}/epoch{self.args.pretrain_embedding_epoch}.pth"
+            pretrained_model = torch.load(pretrained_model_path)
+            '''
+            Consider mix different models' embeddings
+            '''
+            item_emb = FuzeLayer(
+                pretrained_layer=torch.nn.Embedding.from_pretrained(pretrained_model['share_model.item_emb.weight']),
+                new_layer=self.model.item_emb,
+                alpha=self.args.pretrain_alpha
+            )
+            pos_emb = FuzeLayer(
+                pretrained_layer=torch.nn.Embedding.from_pretrained(pretrained_model['share_model.pos_emb.weight']),
+                new_layer=self.model.pos_emb,
+                alpha=self.args.pretrain_alpha
+            )
+            self.model.item_emb = item_emb
+            # self.model.pos_emb = pos_emb
+
+            # self.model.item_emb.weight = torch.nn.Parameter(pretrained_model['share_model.item_emb.weight'])
+            # self.model.item_emb.requires_grad_(False)
+            # self.model.pos_emb.weight = torch.nn.Parameter(pretrained_model['pos_emb.weight'])
+            # self.model.pos_emb.requires_grad_(False)
+
+        self.model.to(self.device)
+
+
     def train(self):
         """
         Train the model
         """
         set_random_seeds(self.args.seed)
         self.logger.info(f"============Start Training (SASRec)=======================")
-        self.model = SASRec(self.args, self.item_num)
-        self.init_param()
-        save_path = f"./saves_full/{self.args.dataset}/{self.args.model}"
-        os.makedirs(save_path, exist_ok=True)
-        if self.args.pretrain_embedding_epoch is not None:
-            pretrained_model_path = f"{save_path}/epoch{self.args.pretrain_embedding_epoch}.pth"
-            pretrained_model = torch.load(pretrained_model_path)
-            
-            item_emb = FuzeLayer(
-                pretrained_layer=torch.nn.Embedding.from_pretrained(pretrained_model['item_emb.weight']),
-                new_layer=self.model.item_emb,
-                alpha=self.args.pretrain_alpha
-            )
-            pos_emb = FuzeLayer(
-                pretrained_layer=torch.nn.Embedding.from_pretrained(pretrained_model['pos_emb.weight']),
-                new_layer=self.model.pos_emb,
-                alpha=self.args.pretrain_alpha
-            )
-            self.model.item_emb = item_emb
-            self.model.pos_emb = pos_emb
-
-            # self.model.item_emb.weight = torch.nn.Parameter(pretrained_model['item_emb.weight'])
-            # self.model.item_emb.requires_grad_(False)
-            # self.model.pos_emb.weight = torch.nn.Parameter(pretrained_model['pos_emb.weight'])
-            # self.model.pos_emb.requires_grad_(False)
-
-        self.model.to(self.device)
+        self.prepare_model()
         self.inference_negative_sampler = NegativeSampler(self.args, self.dataset)
         # Build the train, valid, test datasets
         train_dataset = TrainData(self.train_data, self.user_num, self.item_num, batch_size=self.args.batch_size,
@@ -137,6 +144,7 @@ class Trainer(embedder):
                 print(f'Loss: {training_loss:.4f}; Item Emb Grad L2: {emb_grad_L2[0]:.2f}, L1: {emb_grad_L1[0]:.2f}, Pos Emb Grad L2: {emb_grad_L2[1]:.2f}, L1: {emb_grad_L1[1]:.2f}')
             
             if self.args.pretrain_embedding_epoch is None:
+                save_path = f"./saves_full/{self.args.dataset}/{self.args.model}"
                 torch.save(self.model.state_dict(), os.path.join(f'{save_path}/epoch{epoch}.pth'))
         # Evaluation
         with torch.no_grad():
