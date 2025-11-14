@@ -73,8 +73,19 @@ class Trainer(embedder):
         self.experts = [
             Expert(self.args, self.share_model).to(self.device) for _ in range(self.args.num_experts)
         ]
+        
         for i in range(self.args.num_experts):
             self.init_param(self.experts[i])
+            # ========== Modified: Load pretrained embeddings ==========
+            pretrained_path = f"saves_full/{self.args.dataset}/{self.args.model}_{self.args.dataset}{i}.pth"
+            pretrained_dict = torch.load(pretrained_path, map_location=torch.device(self.device))
+            item_emb = pretrained_dict['share_model.item_emb.weight']
+            pos_emb = pretrained_dict['share_model.pos_emb.weight']
+            # Previous exp only item emb freezed
+            self.experts[i].share_model.item_emb.weight = torch.nn.Parameter(item_emb, requires_grad=False).to(self.device)
+            self.experts[i].share_model.pos_emb.weight = torch.nn.Parameter(pos_emb, requires_grad=False).to(self.device)
+        print('============= Using Freezed Pre-trained Embeddings (both item and pos emb) =============')
+
         self.inference_negative_sampler = NegativeSampler(self.args, self.dataset)
         self.inference_negative_samplers = [NegativeSampler(self.args, self.datasets[i]) for i in
                                             range(self.args.num_experts)]
@@ -120,13 +131,16 @@ class Trainer(embedder):
                            range(self.args.num_experts)]
         self.bce_criterion = torch.nn.BCEWithLogitsLoss()
 
-        big_epoch = 30
+        # big_epoch = 30
+        big_epoch = self.args.big_epoch
 
         user_embs = [{} for _ in range(self.args.num_experts)]
         user_lens = [{} for _ in range(self.args.num_experts)]
         n = self.args.num_experts - 1
 
         for E in tqdm(range(big_epoch)):
+            print('=========================================================')
+            print(f'================== Big Epoch {E} ==================')
             for i in range(self.args.num_experts):
                 print(f"len(train_loaders[i]):{len(train_loaders[i])}")
                 for epoch in range(1, self.args.e_max + 1):
@@ -309,9 +323,28 @@ class Trainer(embedder):
                 os.makedirs(folder, exist_ok=True)
                 torch.save(self.validchecks[i].best_model.state_dict(),
                            os.path.join(folder, self.validchecks[i].best_name))
+            
+            Hits = 0.0
+            NDCGs = 0.0
+            nums = 0.0
             for i in range(self.args.num_experts):
                 model_path = f"save_model/{self.args.dataset}/{self.args.model}_{self.args.dataset}{i}.pth"
                 self.experts[i].load_state_dict(torch.load(model_path, map_location=torch.device(self.device)))
+                # Add evaluation on all experts after each big epoch E
+                self.validchecks[i].best_model.eval()
+                with torch.no_grad():
+                    result, Hit, NDCG, n_user = self.evaluate_with_tail(self.validchecks[i].best_model, i, k=10,
+                                                                        is_valid='valid',
+                                                                        is_return=True)
+                    Hits += Hit
+                    NDCGs += NDCG
+                    nums += n_user
+
+            print(f" =====Validation ALL at big epoch {E}=====")
+            print(f"Validation HIT: {Hits / nums:.4f}, Validation NDCG: {NDCGs / nums:.4f}")
+
+        # =========== Finished Training ===========
+        # =========== Final Evaluation ===========
 
         Hits = 0.0
         NDCGs = 0.0

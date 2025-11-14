@@ -34,6 +34,7 @@ def parse_args():
     parser.add_argument('--beta', default=0.3, type=int)
     parser.add_argument('--sigamma', default=1.3, type=int)
 
+    parser.add_argument('--big_epoch', default=25, type=int, help="Big epoch")
     parser.add_argument('--e_max', default=200, type=int, help="Max epoch")
     parser.add_argument('--kd_max', default=20, type=int, help="kd epoch")
 
